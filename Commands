@@ -5,5 +5,20 @@
   (cd \) ---> back to roots
 
 (mkdir or md) ---> create/make director "md not working on my end"
+  (makdir "Abdul Hegazy") ---> to create one folder has this name included 2 inputs
+
+(mv) ---> Move-change the file name {e.g. mv testing test} it’s will change from testing to test
 (ls) ---> List of files what found in the current folder
-(clear or cls) ---> delete all in the terminal window 
+(clear) ---> delete all in the terminal window  "cls for windows operating system"
+
+
+
+
+
+
+
+
+
+
+Questions:
+1) How can i go to the folder in document\files\images when i was in the root?
