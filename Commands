@@ -1,0 +1,9 @@
+(exec) ---> is used to replace the current shell with the specified program. However, it's typically followed by the program name. 
+(echo) ---> is used to display a text string to the console. Without any arguments, it simply prints a newline character.
+(cd) ---> Change directors + file name
+  (cd ..) ---> Go back step
+  (cd \) ---> back to roots
+
+(mkdir or md) ---> create/make director "md not working on my end"
+(ls) ---> List of files what found in the current folder
+(clear or cls) ---> delete all in the terminal window 
