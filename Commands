@@ -10,13 +10,38 @@
 (mkdir "Abdul Hegazy") ---> to create one folder has this name included 2 inputs
 --------------------------------------------------------------------------------------------------------------------------------------------
 (mv) ---> Change the file name {e.g. mv testing test} it’s will change from testing to test
-(mv) ---> Move the file {e.g. mv testing folder2} it’s will move testing to folder2
+(mv) ---> Move the file {e.g. mv testing folder2} it’s will move testing to folder2 if found folder named folder2
 --------------------------------------------------------------------------------------------------------------------------------------------
 (cp -r) ---> Copy the file including all items in it
 --------------------------------------------------------------------------------------------------------------------------------------------
 (rm -r) ---> Remove directory including all items in it
 (rm -d) ---> Remove empty directory 
 --------------------------------------------------------------------------------------------------------------------------------------------
+(touch abdel) ---> Create a fill in the directory named abdul.txt
+--------------------------------------------------------------------------------------------------------------------------------------------
+(echo) --->
+(echo "Hello") ---> Will display Hello in the terminal 
+(echo "Hello" > abdul.txt) ---> Will display Hello in the abdul.txt file {Will create abdul.txt file if not found in in the directory}
+(echo "Welcome" >> abdul.txt) ---> Will display Welcome in the abdul.txt file in the next line and don’t remove Hello
+--------------------------------------------------------------------------------------------------------------------------------------------
+(cat abdul.txt ex.txt) ---> It will display all data in the files waht you mentioned it in the command {can also use (cat *)}
+(cat abdul.txt >> hegazy.txt) ---> It will merge all items in abdul.txt file in to hegazy.txt file
+(cat abdul.txt hegazy.txt ex.txt > final.txt) ---> It will create final.txt file and merge all data in the mentioned files in it
+--------------------------------------------------------------------------------------------------------------------------------------------
+(grep) ---> global regular expression print
+(grep "Welcome" abdul.txt) ---> It will search about Welcome in abdul.txt file and display if found it
+(grep "Welcome" -r) ---> It will search about Welcome in the current dirctory and the back one
+(grep "css" -r -l) ---> It will search about Welcome in the current dirctory and display it in list
+--------------------------------------------------------------------------------------------------------------------------------------------
+(file abdul.txt) ---> Its display the type of the file/folder {in this case: text file}
+
+
+
+
+
+
+
+
 
 
 
