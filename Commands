@@ -1,8 +1,8 @@
-(ls) ---> List of files what found in the current folder
+(ls) ---> List of files what found in the current directory
 --------------------------------------------------------------------------------------------------------------------------------------------
 (clear) ---> delete all in the terminal window  "cls for windows operating system"
 --------------------------------------------------------------------------------------------------------------------------------------------
-(cd) ---> Change directors + file name
+(cd) ---> Change directors + direcrotry name {e.g. cd documents\}
 (cd ..) ---> Go back step
 (cd \) ---> back to roots
 --------------------------------------------------------------------------------------------------------------------------------------------
