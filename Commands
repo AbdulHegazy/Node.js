@@ -1,15 +1,22 @@
-(exec) ---> is used to replace the current shell with the specified program. However, it's typically followed by the program name. 
-(echo) ---> is used to display a text string to the console. Without any arguments, it simply prints a newline character.
-(cd) ---> Change directors + file name
-  (cd ..) ---> Go back step
-  (cd \) ---> back to roots
-
-(mkdir or md) ---> create/make director "md not working on my end"
-  (makdir "Abdul Hegazy") ---> to create one folder has this name included 2 inputs
-
-(mv) ---> Move-change the file name {e.g. mv testing test} it’s will change from testing to test
 (ls) ---> List of files what found in the current folder
+--------------------------------------------------------------------------------------------------------------------------------------------
 (clear) ---> delete all in the terminal window  "cls for windows operating system"
+--------------------------------------------------------------------------------------------------------------------------------------------
+(cd) ---> Change directors + file name
+(cd ..) ---> Go back step
+(cd \) ---> back to roots
+--------------------------------------------------------------------------------------------------------------------------------------------
+(mkdir) ---> create/make directory  
+(mkdir "Abdul Hegazy") ---> to create one folder has this name included 2 inputs
+--------------------------------------------------------------------------------------------------------------------------------------------
+(mv) ---> Change the file name {e.g. mv testing test} it’s will change from testing to test
+(mv) ---> Move the file {e.g. mv testing folder2} it’s will move testing to folder2
+--------------------------------------------------------------------------------------------------------------------------------------------
+(cp -r) ---> Copy the file including all items in it
+--------------------------------------------------------------------------------------------------------------------------------------------
+(rm -r) ---> Remove directory including all items in it
+(rm -d) ---> Remove empty directory 
+--------------------------------------------------------------------------------------------------------------------------------------------
 
 
 
@@ -19,6 +26,3 @@
 
 
 
-
-Questions:
-1) How can i go to the folder in document\files\images when i was in the root?
